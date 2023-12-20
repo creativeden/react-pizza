@@ -36,3 +36,13 @@
         opacity: 0.8;
     }
 }
+
+@media (min-width: 0) and (max-width: 767px) {
+    .root {
+        margin: 1rem 0;
+    }
+    .input {
+        width: 100%;
+        max-width: 300px;
+    }
+}

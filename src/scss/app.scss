@@ -310,3 +310,17 @@ body {
     }
   }
 }
+
+@media (min-width: 0) and (max-width: 767px) {
+  .header .container, .content__top {
+    display: block;
+  }
+
+  .content__top .categories {
+    overflow: scroll;
+  }
+
+  .content__top .sort {
+    margin-top: 1rem;
+  }
+}
